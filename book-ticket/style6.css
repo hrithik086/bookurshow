@@ -1,0 +1,56 @@
+.header
+{
+  text-align: center;
+  border-bottom: 2px dashed black;
+  padding-bottom: 4px;
+}
+
+p
+{
+	font-family: arial;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	padding-left: 10px;
+}
+
+ul 
+{
+	list-style-type: none;
+	float: left;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+ul li
+{
+	margin-bottom: 10px;
+	border: 2px solid white;
+	width: 100px;
+	padding: 4px;
+	text-align: center;
+	font-family: arial;
+}
+
+ul li:hover
+{
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+div
+{
+	margin-left: 200px;
+	margin-top: 35px;
+}
+
+section
+{
+	margin-right: 100px;
+	margin-left: 100px;
+}

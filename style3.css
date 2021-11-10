@@ -1,0 +1,42 @@
+.header
+{
+  text-align: center;
+  border-bottom: 2px dashed black;
+  padding-bottom: 4px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li a
+{
+	text-decoration: none;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+}
+
+li
+{
+	float: left;
+	margin-left:15px;
+	margin-top: 8px;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 20%;
+	padding: 50px;
+}
+
+li:hover
+{
+	background-color: grey;
+}
+
+section
+{
+	margin-left: 200px;
+	margin-right: 100px;
+}

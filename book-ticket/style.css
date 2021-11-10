@@ -1,0 +1,49 @@
+.screen
+{
+	border:2px solid grey;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	color: green;
+	font-family: arial;
+	font-size: 25px;	
+}
+
+.screen:hover
+{
+	border: 2px dashed grey;
+	color: black;
+}
+
+td
+{
+	text-align: center;
+}
+
+.image
+{
+	height: 50px;
+	width: 50px;
+}
+
+.image:hover
+{
+	height: 40px;
+	width: 40px;
+}
+
+.image:
+{
+	height: 40px;
+	width: 40px;
+}
+
+
+
+
+
+
+
+

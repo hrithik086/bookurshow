@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<title>My first HTML page</title>
+<link href="style1.css" rel="stylesheet">
+</head>
+<body text="crimson" bgcolor="black">
+
+<div id="main">
+<header>
+<pre>
+<h1><a href="project1.html">BOOKURSHOW</h1></a></h1>
+
+</pre>
+<nav>
+<ul>
+<li><a href="project1.html">Home</a></li>
+<li><a href="currentmovies.html">Current Movies</a></li>
+<li><a href="upcomingmovies.html">Upcoming Movies</a></li>
+
+
+<li><a href="#">Contact</a>
+     <ul>
+       <li><a href="#">Phone</a></li>
+          <li><a href="#">Email</a></li>
+       </ul>
+	   </li>
+</ul>
+</nav>
+</header>
+<section>
+<article>
+<p>
+<h1 align="center">ABOUT THE MOVIE</h1>
+<pre>
+                              <img src="images/godzilla.jpg" width="600px" height="400px" alt="no image found">
+	
+                          <h1>                              Director: Michael Dougherty
+                           Writers: Michael Dougherty (screenplay by), Zach Shields (screenplay by)
+                           Stars: Kyle Chandler, Vera Farmiga, Millie Bobby Brown    </h1>
+						   <form method="post" name="f1" action="book-ticket/time.php">
+							  <input type="image" src="images/ticket.jpg" width="200px" height="100px" alt="no image found" value="godzilla" onclick=fun(value)>
+							  <input type="text" id="t1" name="txt" style="visibility: hidden;">
+                              </form><script> function fun(a){document.getElementById("t1").value=a;document.f1.submit()}</script>
+
+</pre>
+</p>
+</article>
+<aside>
+<p>
+<pre>
+<h1 align="center">TRAILER</h1>
+
+<video controls autoplay width="600px" height="400px">
+<source src="images/godzilla.mp4">
+</pre>
+</p>
+</aside>
+</section>
+<footer>
+<p>Copyright &copy;2019</p>
+</footer>
+</div>

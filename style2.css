@@ -1,0 +1,62 @@
+#main
+{
+  width:100%;
+  margin :auto;
+  
+}
+header
+{
+	width:100%;
+	float:left;
+	background-color:RED;
+}
+header h1
+{
+	float:left;
+	color:white;
+	margin-left:3%
+}
+header nav{
+	float:left;
+	width:60%;
+	margin-top:2%;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	background-color:black;
+	border:1px solid white;
+	list-style-type:none;
+	width:220px;
+	float:left;
+	line-height:30px;
+	text-align:center;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+ul li:hover
+{background-color:darkblue;
+ 
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}
+footer
+{
+	float:left;
+	width:100%;
+	background-color:navy;
+}
+footer p
+{
+	color:white;
+	text-align:center;
+}
