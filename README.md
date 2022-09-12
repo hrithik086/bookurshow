@@ -15,6 +15,7 @@ this is made using:
   
 To run this code follow the stpes
 ....................................................................................................................................
+
   step 1: Install Xampp
   step 2: after installing xampp go to the drive where you installed xampp and go to the xampp folder and under it go to the
           htdocs folder clear everyting and paste all this code there.
